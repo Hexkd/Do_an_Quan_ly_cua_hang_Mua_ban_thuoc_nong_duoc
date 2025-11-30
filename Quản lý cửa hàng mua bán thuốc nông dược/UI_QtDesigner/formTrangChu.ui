@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>formTrangChu</class>
+ <widget class="QMainWindow" name="formTrangChu">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Trang chủ</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblTitleTC">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>201</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>30</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Trang chủ</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="grpTaiKhoan">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>581</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="title">
+     <string>Thông tin tài khoản</string>
+    </property>
+    <widget class="QLineEdit" name="txtQuyen">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>150</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>n/a</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblTenNV">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>60</y>
+       <width>60</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Tên NV</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblMaNV">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>60</y>
+       <width>60</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Mã NV</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtMaNV">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>60</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>n/a</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblChucVu">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>150</y>
+       <width>60</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Chức vụ</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtChucVu">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>150</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>n/a</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="lblQuyen">
+     <property name="geometry">
+      <rect>
+       <x>310</x>
+       <y>150</y>
+       <width>60</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Quyền</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="txtTenNV">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>370</x>
+       <y>60</y>
+       <width>180</width>
+       <height>25</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Times New Roman</family>
+      </font>
+     </property>
+     <property name="text">
+      <string>n/a</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>600</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="mnuHeThong">
+    <property name="title">
+     <string>&amp;Hệ thống</string>
+    </property>
+    <addaction name="mnuDangNhap"/>
+    <addaction name="mnuDangXuat"/>
+    <addaction name="separator"/>
+    <addaction name="mnuThoat"/>
+   </widget>
+   <widget class="QMenu" name="mnuQuanLy">
+    <property name="title">
+     <string>&amp;Quản lý</string>
+    </property>
+    <addaction name="mnuSanPham"/>
+    <addaction name="mnuKhachHang"/>
+    <addaction name="mnuHoaDon"/>
+    <addaction name="separator"/>
+    <addaction name="mnuNhanVien"/>
+   </widget>
+   <addaction name="mnuHeThong"/>
+   <addaction name="mnuQuanLy"/>
+  </widget>
+  <action name="mnuDangNhap">
+   <property name="text">
+    <string>Đăng &amp;nhập...</string>
+   </property>
+   <property name="statusTip">
+    <string/>
+   </property>
+  </action>
+  <action name="mnuDangXuat">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Đăng &amp;xuất</string>
+   </property>
+  </action>
+  <action name="mnuThoat">
+   <property name="text">
+    <string>&amp;Thoát</string>
+   </property>
+  </action>
+  <action name="mnuSanPham">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Sản phẩm...</string>
+   </property>
+  </action>
+  <action name="mnuKhachHang">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Khách hàng...</string>
+   </property>
+  </action>
+  <action name="mnuNhanVien">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Nhân viên...</string>
+   </property>
+  </action>
+  <action name="mnuHoaDon">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>&amp;Hóa đơn...</string>
+   </property>
+  </action>
+ </widget>
+ <tabstops>
+  <tabstop>txtMaNV</tabstop>
+  <tabstop>txtTenNV</tabstop>
+  <tabstop>txtChucVu</tabstop>
+  <tabstop>txtQuyen</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
